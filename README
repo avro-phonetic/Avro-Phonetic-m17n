@@ -1,0 +1,11 @@
+m17n-db for Popular Bangla writing engine Avro Phonetic
+
+This is created as there is no support currently for Avro Phonetic in IBus.
+With this file (bn-avro-phonetic.mim), now we can use avro phonetic in IBus.
+
+How to use with IBus -
+ Install this first (see the file INSTALL).
+ Also install ibus-m17n
+ Then open "Keyboard Input Methods". Go to "Input Method".
+ Add Avro.
+ Now you can use Avro with IBus :-)

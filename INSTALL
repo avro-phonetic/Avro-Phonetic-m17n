@@ -1,0 +1,7 @@
+For Ubuntu users:
+There is a deb file provided. Install it.
+
+For other linux variants:
+Just copy the bn-avro-phonetic.mim to the m17n folder (/usr/share/m17n for
+Ubuntu) and bn-avro-phonetic.png to m17n/icon folder. You may need to install
+m17n-db to use it.
