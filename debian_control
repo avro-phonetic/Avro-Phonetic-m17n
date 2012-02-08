@@ -1,0 +1,11 @@
+Package: avro-phonetic-m17n
+Version: VERSION_HERE
+Section: utils
+Priority: optional
+Architecture: all
+Depends: m17n-db
+Essential: no
+Maintainer: Md. Enzam Hossain <enzam@progmaatic.com>
+Description: Insallation package for Unofficial Avro Phontic layout with m17n
+ This package contains the layout for writing in Avro Phonetic layout in m17n-db format.
+Homepage: https://github.com/ienzam/Avro-Phonetic-m17n
