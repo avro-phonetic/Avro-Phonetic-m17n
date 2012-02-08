@@ -1,0 +1,8 @@
+Nothing much to say
+
+To change version, you need to edit in bn-avro-phonetic.mim file
+as well as Makefile.
+
+Run
+make deb
+to create deb file.
