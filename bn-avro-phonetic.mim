@@ -11,12 +11,15 @@
 ;;; TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 ;;; 0. You just DO WHATEVER YOU WANT TO.
 
+;;; Change in version 1.1
+;;; Fixed a space bug occured in ubuntu 11.10 (problem may occured for gnome 3)
+
 ;;; Known Bugs (or as I call it the right way :P):
 ;;; * "byakti" will conver to - ব্যআক্তি, You should write bykti for ব্যক্তি
 ;;; * "aZDmin" will conver to - অ্যাড্মিন, You should write aZD`min for অ্যাডমিন
 ;;; * You don't need to give rr for রেফ (rr is supported though)
 
-(input-method bn avro-phonetic (version 1.0))
+(input-method bn avro-phonetic (version 1.1))
 (title "ফো")
 (description "Bangla input method using the Avro Phonetic system.
 For avro phonetic, this is followed 
@@ -126,6 +129,7 @@ Author: Md. Enzam Hossain <enzam@progmaatic.com>
 		("8" "৮")
 		("9" "৯")
 		("`" "")
+		(" " " ")
 	)
     (map_vowel_full_force
 		("`o" "অ")
